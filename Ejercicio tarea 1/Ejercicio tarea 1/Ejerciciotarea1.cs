@@ -22,13 +22,22 @@ namespace Ejercicio_tarea_1
             int numero;
             numero = int.Parse(IngresoBox1.Text);
 
-            if ( numero % 2 == 0)
+            if (numero % 2 == 0 & numero > 0)
             {
-                ResultadoBox1.Text = "El numero " + numero  + " es par";
+                ResultadoBox1.Text = "El numero " + numero + " es par negativo";
             }
             else
             {
-                ResultadoBox1.Text = "El numero " + numero  + " es impar";
+                ResultadoBox1.Text = "El numero " + numero + " es impar positivo";
+            }
+
+            if (numero % 2 != 0 & numero < 0)
+            {
+                ResultadoBox1.Text = "El numero " + numero + " es par negativo";
+            }
+            else
+            {
+                ResultadoBox1.Text = "El numero " + numero + " es impar positivo";
             }
         }
 
@@ -37,5 +46,6 @@ namespace Ejercicio_tarea_1
             IngresoBox1.Clear();
             ResultadoBox1.Clear();
         }
+
     }
 }

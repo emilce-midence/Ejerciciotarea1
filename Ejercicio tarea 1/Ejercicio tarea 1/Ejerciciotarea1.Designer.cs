@@ -42,17 +42,17 @@ namespace Ejercicio_tarea_1
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(165, 9);
+            this.label1.Location = new System.Drawing.Point(104, 74);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(266, 20);
+            this.label1.Size = new System.Drawing.Size(404, 20);
             this.label1.TabIndex = 0;
-            this.label1.Text = "Determinar si un valor es par o impar";
+            this.label1.Text = "Determinar si un valor es par o impar, positivo o negativo";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(71, 94);
+            this.label2.Location = new System.Drawing.Point(104, 153);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(126, 20);
             this.label2.TabIndex = 1;
@@ -60,7 +60,7 @@ namespace Ejercicio_tarea_1
             // 
             // IngresoBox1
             // 
-            this.IngresoBox1.Location = new System.Drawing.Point(234, 96);
+            this.IngresoBox1.Location = new System.Drawing.Point(267, 155);
             this.IngresoBox1.Name = "IngresoBox1";
             this.IngresoBox1.Size = new System.Drawing.Size(120, 20);
             this.IngresoBox1.TabIndex = 2;
@@ -69,7 +69,7 @@ namespace Ejercicio_tarea_1
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(115, 185);
+            this.label3.Location = new System.Drawing.Point(148, 244);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(86, 20);
             this.label3.TabIndex = 3;
@@ -77,14 +77,14 @@ namespace Ejercicio_tarea_1
             // 
             // ResultadoBox1
             // 
-            this.ResultadoBox1.Location = new System.Drawing.Point(234, 185);
+            this.ResultadoBox1.Location = new System.Drawing.Point(267, 244);
             this.ResultadoBox1.Name = "ResultadoBox1";
             this.ResultadoBox1.Size = new System.Drawing.Size(170, 20);
             this.ResultadoBox1.TabIndex = 4;
             // 
             // Calcularbutton1
             // 
-            this.Calcularbutton1.Location = new System.Drawing.Point(249, 122);
+            this.Calcularbutton1.Location = new System.Drawing.Point(282, 181);
             this.Calcularbutton1.Name = "Calcularbutton1";
             this.Calcularbutton1.Size = new System.Drawing.Size(75, 23);
             this.Calcularbutton1.TabIndex = 5;
@@ -94,7 +94,7 @@ namespace Ejercicio_tarea_1
             // 
             // Vaciarbutton1
             // 
-            this.Vaciarbutton1.Location = new System.Drawing.Point(249, 211);
+            this.Vaciarbutton1.Location = new System.Drawing.Point(282, 270);
             this.Vaciarbutton1.Name = "Vaciarbutton1";
             this.Vaciarbutton1.Size = new System.Drawing.Size(75, 23);
             this.Vaciarbutton1.TabIndex = 6;
@@ -106,7 +106,7 @@ namespace Ejercicio_tarea_1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(629, 432);
             this.Controls.Add(this.Vaciarbutton1);
             this.Controls.Add(this.Calcularbutton1);
             this.Controls.Add(this.ResultadoBox1);
