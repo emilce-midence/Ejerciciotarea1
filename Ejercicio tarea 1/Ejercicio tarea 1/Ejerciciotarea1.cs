@@ -17,35 +17,45 @@ namespace Ejercicio_tarea_1
             InitializeComponent();
         }
 
-        private void Calcularbutton1_Click(object sender, EventArgs e)
+        private void Mostrarbutton1_Click(object sender, EventArgs e)
         {
-            int numero;
-            numero = int.Parse(IngresoBox1.Text);
+            int Numero;
 
-            if (numero % 2 == 0 & numero > 0)
+            Numero = int.Parse(IngresoBox1.Text);
+            int Modulo = Numero % 2;
+
+            if (Numero ==0)
             {
-                ResultadoBox1.Text = "El numero " + numero + " es par negativo";
+                string Cero = " El numero es 0 ";
+                MessageBox.Show(Cero);
+            }
+
+            if (Modulo == 0)
+            {
+                string Par = "Par";
+                MessageBox.Show(Par);
             }
             else
             {
-                ResultadoBox1.Text = "El numero " + numero + " es impar positivo";
+                string Impar = "Impar";
+                MessageBox.Show(Impar);
             }
 
-            if (numero % 2 != 0 & numero < 0)
+            if (Numero > 0)
             {
-                ResultadoBox1.Text = "El numero " + numero + " es par negativo";
+                string Positivo = "Positivo";
+                MessageBox.Show(Positivo);
             }
             else
             {
-                ResultadoBox1.Text = "El numero " + numero + " es impar positivo";
+                string Negativo = "Negativo";
+                MessageBox.Show(Negativo);
             }
         }
 
-        private void Vaciarbutton1_Click(object sender, EventArgs e)
+        private void Borrarbutton1_Click(object sender, EventArgs e)
         {
-            IngresoBox1.Clear();
-            ResultadoBox1.Clear();
-        }
 
+        }
     }
 }

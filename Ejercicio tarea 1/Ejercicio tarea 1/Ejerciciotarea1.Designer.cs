@@ -32,10 +32,8 @@ namespace Ejercicio_tarea_1
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.IngresoBox1 = new System.Windows.Forms.TextBox();
-            this.label3 = new System.Windows.Forms.Label();
-            this.ResultadoBox1 = new System.Windows.Forms.TextBox();
-            this.Calcularbutton1 = new System.Windows.Forms.Button();
-            this.Vaciarbutton1 = new System.Windows.Forms.Button();
+            this.Mostrarbutton1 = new System.Windows.Forms.Button();
+            this.Borrarbutton1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -54,9 +52,9 @@ namespace Ejercicio_tarea_1
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.Location = new System.Drawing.Point(104, 153);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(126, 20);
+            this.label2.Size = new System.Drawing.Size(147, 20);
             this.label2.TabIndex = 1;
-            this.label2.Text = "Ingrese un valor:";
+            this.label2.Text = "Ingrese un numero:";
             // 
             // IngresoBox1
             // 
@@ -65,52 +63,33 @@ namespace Ejercicio_tarea_1
             this.IngresoBox1.Size = new System.Drawing.Size(120, 20);
             this.IngresoBox1.TabIndex = 2;
             // 
-            // label3
+            // Mostrarbutton1
             // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(148, 244);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(86, 20);
-            this.label3.TabIndex = 3;
-            this.label3.Text = "Resultado:";
+            this.Mostrarbutton1.Location = new System.Drawing.Point(209, 245);
+            this.Mostrarbutton1.Name = "Mostrarbutton1";
+            this.Mostrarbutton1.Size = new System.Drawing.Size(75, 23);
+            this.Mostrarbutton1.TabIndex = 7;
+            this.Mostrarbutton1.Text = "Mostrar";
+            this.Mostrarbutton1.UseVisualStyleBackColor = true;
+            this.Mostrarbutton1.Click += new System.EventHandler(this.Mostrarbutton1_Click);
             // 
-            // ResultadoBox1
+            // Borrarbutton1
             // 
-            this.ResultadoBox1.Location = new System.Drawing.Point(267, 244);
-            this.ResultadoBox1.Name = "ResultadoBox1";
-            this.ResultadoBox1.Size = new System.Drawing.Size(170, 20);
-            this.ResultadoBox1.TabIndex = 4;
-            // 
-            // Calcularbutton1
-            // 
-            this.Calcularbutton1.Location = new System.Drawing.Point(282, 181);
-            this.Calcularbutton1.Name = "Calcularbutton1";
-            this.Calcularbutton1.Size = new System.Drawing.Size(75, 23);
-            this.Calcularbutton1.TabIndex = 5;
-            this.Calcularbutton1.Text = "Calcular";
-            this.Calcularbutton1.UseVisualStyleBackColor = true;
-            this.Calcularbutton1.Click += new System.EventHandler(this.Calcularbutton1_Click);
-            // 
-            // Vaciarbutton1
-            // 
-            this.Vaciarbutton1.Location = new System.Drawing.Point(282, 270);
-            this.Vaciarbutton1.Name = "Vaciarbutton1";
-            this.Vaciarbutton1.Size = new System.Drawing.Size(75, 23);
-            this.Vaciarbutton1.TabIndex = 6;
-            this.Vaciarbutton1.Text = "Vaciar";
-            this.Vaciarbutton1.UseVisualStyleBackColor = true;
-            this.Vaciarbutton1.Click += new System.EventHandler(this.Vaciarbutton1_Click);
+            this.Borrarbutton1.Location = new System.Drawing.Point(324, 245);
+            this.Borrarbutton1.Name = "Borrarbutton1";
+            this.Borrarbutton1.Size = new System.Drawing.Size(75, 23);
+            this.Borrarbutton1.TabIndex = 8;
+            this.Borrarbutton1.Text = "Borrar";
+            this.Borrarbutton1.UseVisualStyleBackColor = true;
+            this.Borrarbutton1.Click += new System.EventHandler(this.Borrarbutton1_Click);
             // 
             // Ejerciciotarea1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(629, 432);
-            this.Controls.Add(this.Vaciarbutton1);
-            this.Controls.Add(this.Calcularbutton1);
-            this.Controls.Add(this.ResultadoBox1);
-            this.Controls.Add(this.label3);
+            this.Controls.Add(this.Borrarbutton1);
+            this.Controls.Add(this.Mostrarbutton1);
             this.Controls.Add(this.IngresoBox1);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
@@ -126,10 +105,8 @@ namespace Ejercicio_tarea_1
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.TextBox IngresoBox1;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.TextBox ResultadoBox1;
-        private System.Windows.Forms.Button Calcularbutton1;
-        private System.Windows.Forms.Button Vaciarbutton1;
+        private System.Windows.Forms.Button Mostrarbutton1;
+        private System.Windows.Forms.Button Borrarbutton1;
     }
 }
 
