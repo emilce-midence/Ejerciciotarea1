@@ -24,7 +24,7 @@ namespace Ejercicio_tarea_1
             Numero = int.Parse(IngresoBox1.Text);
             int Modulo = Numero % 2;
 
-            if (Numero ==0)
+            if (Numero == 0)
             {
                 string Cero = " El numero es 0 ";
                 MessageBox.Show(Cero);
@@ -53,9 +53,9 @@ namespace Ejercicio_tarea_1
             }
         }
 
-        private void Borrarbutton1_Click(object sender, EventArgs e)
+        private void Salirbutton1_Click(object sender, EventArgs e)
         {
-
+            Close();
         }
     }
 }
